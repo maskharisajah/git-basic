@@ -1,39 +1,42 @@
-Repository ini ini berisi hasil latihan untuk mempelajari dasar Git dan branch.
+# Git Basics Practice Repository
 
-## 📌 Topik yang Dicakup
+This repository contains practice exercises for learning the basics of Git and branching.
 
-### 🔧 Konfigurasi Dasar
-- Setup awal Git (username, email)
-- Konfigurasi lokal
+## 📌 Topics Covered
 
-### 🔄 Workflow Fundamental
-- Siklus kerja Git: working directory → staging area → repository
-- Praktik commit yang efektif
-- Teknik pembatalan perubahan:
-  - Membatalkan modified file (`git checkout`)
-  - Mengeluarkan file dari staging (`git reset`)
-  - Revisi commit terakhir (`git commit --amend`)
+### 🔧 Basic Configuration
+- Initial Git setup (username, email)
+- Local configuration
 
-### 🕵️‍♂️ Eksplorasi History
-- Melihat log commit (`git log`)
-- Navigasi ke commit spesifik (`git checkout <commit-hash>`)
-- Melihat perubahan antar commit (`git diff`)
+### 🔄 Fundamental Workflow
+- Git workflow cycle: working directory → staging area → repository
+- Effective commit practices
+- Techniques for undoing changes:
+  - Discarding modified files (`git checkout`)
+  - Removing files from staging (`git reset`)
+  - Amending the last commit (`git commit --amend`)
+
+### 🕵️‍♂️ Exploring History
+- Viewing commit logs (`git log`)
+- Navigating to a specific commit (`git checkout <commit-hash>`)
+- Viewing changes between commits (`git diff`)
 
 ### 🌿 Branch Management
-- Pembuatan dan navigasi branch
-- Teknik penggabungan:
-  - Merge 
-  - Squash
-  - rebase
-- Resolusi conflict:
-  - Identifikasi konflik
-  - Membenarkan code yang konflik
-  - Pembatalan merge
+- Creating and switching branches
+- Merge techniques:
+  - Merge  
+  - Squash  
+  - Rebase  
+- Conflict resolution:
+  - Identifying conflicts  
+  - Fixing conflicting code  
+  - Cancelling a merge  
 
 ### 📦 Stash Management
-- Penyimpanan sementara pada code yang belum siap di commit (`git stash`)
+- Temporarily saving uncommitted code (`git stash`)
 
-## 🛠 Cara Menggunakan
-1. Clone repository:
+## 🛠 How to Use
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/username/git-dasar.git
